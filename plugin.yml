@@ -6,6 +6,3 @@ commands:
    to:
      description: Teleport to a player
      usage: /<command>
-   tohere:
-     description: Teleport a player to you
-     usage: /<command>
