@@ -1,0 +1,8 @@
+name: TeleportTo
+main: me.michaelkrauty.TeleportTo.TeleportTo
+author: michaelkrauty
+version: 1.0
+commands:
+   to:
+     description: Teleport to a player
+     usage: /<command>
