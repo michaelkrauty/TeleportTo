@@ -41,7 +41,7 @@ public class TeleportTo extends JavaPlugin {
 		if(commandLabel.equalsIgnoreCase("to")) {
 			Player targetPlayer = player.getServer().getPlayer(args[0]);
 			Location targetPlayerLocation = targetPlayer.getLocation();
-			sender.sendMessage(ChatColor.GOLD + "Teleported to player");
+			sender.sendMessage(ChatColor.GOLD + "Teleported to " + targetPlayer.getName());
 			player.teleport(targetPlayerLocation);
 			return true;
 		}
